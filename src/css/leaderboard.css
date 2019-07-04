@@ -1,0 +1,23 @@
+th{
+    background-color: rgb(64,82,117);
+    color:white;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+}
+.page-item.active .page-link {
+    background-color: rgb(64,82,117);
+}
+.page-item.active{
+    color:white;
+}
+.dataTables_filter{
+}
+/* .form-control{
+    background-color:rgb(64,82,117);
+    color:white;
+}
+.form-control:focus{
+    background-color:rgb(64,82,117);
+    color:white;
+    border: 1px solid #ff9c00;;
+} */

@@ -1,0 +1,82 @@
+.activeTab {  
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 3px solid orange;  
+}
+
+.activeTab > a {
+  color: black !important;
+}
+
+.main-nav {
+  z-index: 888;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #e5e3dc; }
+  .main-nav .navbar-brand {
+    margin: 0;
+    padding: 0;
+    line-height: 1; }
+    @media (max-width: 75em) {
+      .main-nav .navbar-brand .navbar-brand-text {
+        display: none; } }
+    @media (max-width: 47.9375em) {
+      .main-nav .navbar-brand img {
+        width: 50px;
+        height: 50px;
+        padding: 0; }
+      .main-nav .navbar-brand .navbar-brand-text {
+        display: inline; } }
+    @media (max-width: 26.25em) {
+      .main-nav .navbar-brand img {
+        width: 50px;
+        height: 50px;
+        padding: 0; }
+      .main-nav .navbar-brand .navbar-brand-text {
+        display: none; } }
+  .main-nav .logo {
+    position: relative;
+    z-index: 900;
+    display: flex;
+    transition: all 0.3s ease; }
+  @media (max-width: 35.9375em) {
+    .main-nav .logo {
+      visibility: hidden; } }
+  @media (max-width: 64em) {
+    .main-nav .logo {
+      width: 50px;
+      height: 50px;
+      padding: 0; }
+    .main-nav ul {
+      width: 550px; } }
+  .main-nav ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    list-style: none;
+    display: flex;
+    width: 600px; }
+    @media (max-width: 47.9375em) {
+      .main-nav ul {
+        width: auto; } }
+  .main-nav li {
+    padding-top: 40px;
+    text-align: center;
+    height: 100px;
+    flex: 1;
+    top: 0; }
+    .main-nav li:hover, .main-nav li:focus, .main-nav li:active {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-bottom: 3px solid orange; }
+    @media (max-width: 47.9375em) {
+      .main-nav li {
+        height: auto;
+        padding-top: 20px; } }
+  .main-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
