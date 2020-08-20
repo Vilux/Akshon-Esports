@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.16.6",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
     "connect": "^3.6.6",
